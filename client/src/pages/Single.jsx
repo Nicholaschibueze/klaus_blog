@@ -3,6 +3,7 @@ import Profile from "../img/profile.png";
 import Edit from "../img/edit.png";
 import Delete from "../img/delete.png";
 import { Link } from 'react-router-dom';
+import Menu from '../components/Menu';
 
 
 const Single = () => {
@@ -25,8 +26,7 @@ const Single = () => {
           </div>
         </div>
         <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-           Natus doloribus corrupti explicabo, aperiam quidem magnam numquam totam reprehenderit quibusdam ducimus animi omnis ipsum 
-          doloremque facere aliquam assumenda debitis dolorum sequi.</h1>
+           Natus doloribus corrupti explicabo, aperiam quidem magnam</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Iusto consequuntur itaque fuga officiis quasi dolorem,
              obcaecati voluptas reiciendis repellendus cum officia minima
@@ -38,7 +38,7 @@ const Single = () => {
                 adipisicing elit. Nihil, delectus est eligendi, expedita sunt eos iusto illo excepturi animi,
                  ipsa nostrum natus obcaecati recusandae? Cumque ipsa ipsum excepturi vitae itaque.</p>
       </div>
-      <div className="menu">m</div>
+      <Menu/>
     </div>
   )
 }
